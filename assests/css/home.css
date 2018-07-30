@@ -1,0 +1,118 @@
+
+
+body{
+	font-family: 'Raleway', sans-serif;
+	position:absolute !important; 
+	top:0 !important; 
+	bottom:0 !important; 
+	right:0 !important; 
+	left:0 !important;
+}
+.nav_css
+{
+	
+	color : white !important;
+
+}
+
+#nav-mobile li  a {
+	color: white; !important;
+}
+
+.img_one
+{
+	background: #5ECB63 !important;
+	background-repeat: no-repeat; 
+	background-size: 103% 118%;
+    background-position: center top;
+    opacity: 1;
+    visibility: inherit;
+    min-height: 100%
+
+}
+.text_color 
+{
+	color: #fff !important;
+}
+
+.modal
+{
+	width : 35% !important;
+
+}
+
+footer
+{
+	background-color: #3f3f37 !important;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+/**** RESPONSIVE ****/
+    
+    @media only screen and (max-width: 679px) {
+    body {
+        background-color: lightblue;
+        min-height: 161% !important;
+    }
+
+}
+@media only screen and (max-width: 611px) {
+    body {
+        
+        min-height: 195% !important;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    
+    .img_one {
+        
+        min-height: 102% !important;
+    }
+
+}
